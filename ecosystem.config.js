@@ -1,7 +1,7 @@
 module.exports = {
   apps: [
     {
-      name: "komponents-backend",
+      name: "short-view-news-backend",
       script: "pnpm",
       args: "start",
       env_production: {
