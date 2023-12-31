@@ -1,0 +1,40 @@
+{
+  "kind": "collectionType",
+  "collectionName": "youtube_news_productions",
+  "info": {
+    "singularName": "youtube-news-production",
+    "pluralName": "youtube-news-productions",
+    "displayName": "Youtube News Production",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "text",
+      "required": true
+    },
+    "comment": {
+      "type": "text",
+      "required": true
+    },
+    "videoId": {
+      "type": "string",
+      "required": true
+    },
+    "idx": {
+      "type": "string",
+      "required": true
+    },
+    "created": {
+      "type": "date",
+      "required": true
+    }
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "kind": "collectionType",
+  "collectionName": "instead_prodctions",
+  "info": {
+    "singularName": "instead-prodction",
+    "pluralName": "instead-prodctions",
+    "displayName": "Instead Prodction"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "address": {
+      "type": "text",
+      "required": true
+    },
+    "comment": {
+      "type": "blocks",
+      "required": true
+    }
+  }
+}

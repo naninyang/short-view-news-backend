@@ -1,0 +1,57 @@
+{
+  "kind": "collectionType",
+  "collectionName": "twitter_omt_prodcutions",
+  "info": {
+    "singularName": "twitter-omt-prodcution",
+    "pluralName": "twitter-omt-prodcutions",
+    "displayName": "Twitter-OMT-prodcution"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "quoteUser": {
+      "type": "string"
+    },
+    "quoteNumber": {
+      "type": "string"
+    },
+    "quoteTwit": {
+      "type": "blocks"
+    },
+    "quoteThumbnail1": {
+      "type": "string"
+    },
+    "quoteThumbnai2": {
+      "type": "string"
+    },
+    "quoteThumbnail3": {
+      "type": "string"
+    },
+    "quoteThumbnail4": {
+      "type": "string"
+    },
+    "originUser": {
+      "type": "string"
+    },
+    "originNumber": {
+      "type": "string"
+    },
+    "originTwit": {
+      "type": "blocks"
+    },
+    "originThumbnail1": {
+      "type": "string"
+    },
+    "originThumbnail2": {
+      "type": "string"
+    },
+    "originThumbnail3": {
+      "type": "string"
+    },
+    "originThumbnail4": {
+      "type": "string"
+    }
+  }
+}

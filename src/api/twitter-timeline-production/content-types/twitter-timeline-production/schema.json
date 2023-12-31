@@ -1,0 +1,88 @@
+{
+  "kind": "collectionType",
+  "collectionName": "twitter_timeline_productions",
+  "info": {
+    "singularName": "twitter-timeline-production",
+    "pluralName": "twitter-timeline-productions",
+    "displayName": "Twitter Timeline Production",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "originUser": {
+      "type": "string"
+    },
+    "originNumber": {
+      "type": "string"
+    },
+    "originTwit": {
+      "type": "blocks"
+    },
+    "originDate": {
+      "type": "datetime"
+    },
+    "relationUser1": {
+      "type": "string"
+    },
+    "relationNumber1": {
+      "type": "string"
+    },
+    "relationTwit1": {
+      "type": "blocks"
+    },
+    "relationDate1": {
+      "type": "datetime"
+    },
+    "relationUser2": {
+      "type": "string"
+    },
+    "relationNumber2": {
+      "type": "string"
+    },
+    "relationTwit2": {
+      "type": "blocks"
+    },
+    "relationDate2": {
+      "type": "datetime"
+    },
+    "relationUser3": {
+      "type": "string"
+    },
+    "relationNumber3": {
+      "type": "string"
+    },
+    "relationTwit3": {
+      "type": "blocks"
+    },
+    "relationDate3": {
+      "type": "datetime"
+    },
+    "relationUser4": {
+      "type": "string"
+    },
+    "relationNumber4": {
+      "type": "string"
+    },
+    "relationTwit4": {
+      "type": "blocks"
+    },
+    "relationDate4": {
+      "type": "datetime"
+    },
+    "relationUser5": {
+      "type": "string"
+    },
+    "relationNumber5": {
+      "type": "string"
+    },
+    "relationTwit5": {
+      "type": "blocks"
+    },
+    "relationDate5": {
+      "type": "datetime"
+    }
+  }
+}

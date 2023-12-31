@@ -1,0 +1,105 @@
+{
+  "kind": "collectionType",
+  "collectionName": "youtube_playlist_productions",
+  "info": {
+    "singularName": "youtube-playlist-production",
+    "pluralName": "youtube-playlist-productions",
+    "displayName": "Youtube Playlist Production"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "subject1": {
+      "type": "text"
+    },
+    "description1": {
+      "type": "text"
+    },
+    "videoId1": {
+      "type": "string"
+    },
+    "subject2": {
+      "type": "text"
+    },
+    "description2": {
+      "type": "text"
+    },
+    "videoId2": {
+      "type": "string"
+    },
+    "subject3": {
+      "type": "text"
+    },
+    "description3": {
+      "type": "text"
+    },
+    "videoId3": {
+      "type": "string"
+    },
+    "subject4": {
+      "type": "text"
+    },
+    "description4": {
+      "type": "text"
+    },
+    "videoId4": {
+      "type": "string"
+    },
+    "subject5": {
+      "type": "text"
+    },
+    "description5": {
+      "type": "text"
+    },
+    "videoId5": {
+      "type": "string"
+    },
+    "subject6": {
+      "type": "text"
+    },
+    "description6": {
+      "type": "text"
+    },
+    "videoId6": {
+      "type": "string"
+    },
+    "subject7": {
+      "type": "text"
+    },
+    "description7": {
+      "type": "text"
+    },
+    "videoId7": {
+      "type": "string"
+    },
+    "subject8": {
+      "type": "text"
+    },
+    "description8": {
+      "type": "text"
+    },
+    "videoId8": {
+      "type": "string"
+    },
+    "subject9": {
+      "type": "text"
+    },
+    "description9": {
+      "type": "text"
+    },
+    "videoId9": {
+      "type": "string"
+    },
+    "subject10": {
+      "type": "text"
+    },
+    "description10": {
+      "type": "text"
+    },
+    "videoId10": {
+      "type": "string"
+    }
+  }
+}

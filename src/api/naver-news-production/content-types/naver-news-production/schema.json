@@ -1,0 +1,35 @@
+{
+  "kind": "collectionType",
+  "collectionName": "naver_news_productions",
+  "info": {
+    "singularName": "naver-news-production",
+    "pluralName": "naver-news-productions",
+    "displayName": "NAVER-News Production"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "text",
+      "required": true
+    },
+    "oid": {
+      "type": "integer",
+      "required": true
+    },
+    "aid": {
+      "type": "integer",
+      "required": true
+    },
+    "thumbnail": {
+      "type": "string",
+      "required": true
+    }
+  }
+}
