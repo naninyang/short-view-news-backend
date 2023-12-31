@@ -684,6 +684,7 @@ export interface ApiInsteadProdctionInsteadProdction
     singularName: 'instead-prodction';
     pluralName: 'instead-prodctions';
     displayName: 'Instead Prodction';
+    description: '';
   };
   options: {
     draftAndPublish: true;
@@ -691,6 +692,7 @@ export interface ApiInsteadProdctionInsteadProdction
   attributes: {
     address: Attribute.Text & Attribute.Required;
     comment: Attribute.Blocks & Attribute.Required;
+    subject: Attribute.String;
     createdAt: Attribute.DateTime;
     updatedAt: Attribute.DateTime;
     publishedAt: Attribute.DateTime;
