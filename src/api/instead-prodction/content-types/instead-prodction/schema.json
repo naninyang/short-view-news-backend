@@ -22,6 +22,9 @@
     },
     "subject": {
       "type": "string"
+    },
+    "created": {
+      "type": "datetime"
     }
   }
 }

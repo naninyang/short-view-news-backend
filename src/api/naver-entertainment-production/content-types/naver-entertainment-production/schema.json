@@ -4,7 +4,8 @@
   "info": {
     "singularName": "naver-entertainment-production",
     "pluralName": "naver-entertainment-productions",
-    "displayName": "NAVER Entertainment Production"
+    "displayName": "NAVER Entertainment Production",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -30,6 +31,9 @@
     "thumbnail": {
       "type": "string",
       "required": true
+    },
+    "created": {
+      "type": "datetime"
     }
   }
 }

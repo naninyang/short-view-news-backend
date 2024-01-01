@@ -11,6 +11,7 @@ import customisations from "../../src/admin/app.js";
 
 renderAdmin(document.getElementById("strapi"), {
   customisations,
+
   plugins: {
     "strapi-cloud": strapiCloud,
     i18n: i18N,

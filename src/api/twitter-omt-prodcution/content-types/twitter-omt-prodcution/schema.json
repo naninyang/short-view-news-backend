@@ -4,7 +4,8 @@
   "info": {
     "singularName": "twitter-omt-prodcution",
     "pluralName": "twitter-omt-prodcutions",
-    "displayName": "Twitter-OMT-prodcution"
+    "displayName": "Twitter-OMT-prodcution",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -52,6 +53,9 @@
     },
     "originThumbnail4": {
       "type": "string"
+    },
+    "created": {
+      "type": "datetime"
     }
   }
 }

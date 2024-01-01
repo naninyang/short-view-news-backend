@@ -83,6 +83,9 @@
     },
     "relationDate5": {
       "type": "datetime"
+    },
+    "created": {
+      "type": "datetime"
     }
   }
 }

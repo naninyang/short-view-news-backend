@@ -4,7 +4,8 @@
   "info": {
     "singularName": "youtube-playlist-production",
     "pluralName": "youtube-playlist-productions",
-    "displayName": "Youtube Playlist Production"
+    "displayName": "Youtube Playlist Production",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -100,6 +101,9 @@
     },
     "videoId10": {
       "type": "string"
+    },
+    "created": {
+      "type": "datetime"
     }
   }
 }

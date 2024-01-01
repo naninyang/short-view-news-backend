@@ -28,10 +28,6 @@
       "type": "string",
       "required": true
     },
-    "idx": {
-      "type": "string",
-      "required": true
-    },
     "created": {
       "type": "date",
       "required": true

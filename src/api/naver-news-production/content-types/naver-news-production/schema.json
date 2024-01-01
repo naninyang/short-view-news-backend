@@ -4,7 +4,8 @@
   "info": {
     "singularName": "naver-news-production",
     "pluralName": "naver-news-productions",
-    "displayName": "NAVER-News Production"
+    "displayName": "NAVER-News Production",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -30,6 +31,9 @@
     "thumbnail": {
       "type": "string",
       "required": true
+    },
+    "created": {
+      "type": "datetime"
     }
   }
 }
