@@ -992,10 +992,10 @@ export interface ApiYoutubeNewsProductionYoutubeNewsProduction
   };
   attributes: {
     title: Attribute.String & Attribute.Required;
-    description: Attribute.Text & Attribute.Required;
-    comment: Attribute.Text & Attribute.Required;
     videoId: Attribute.String & Attribute.Required;
     created: Attribute.Date & Attribute.Required;
+    description: Attribute.Text;
+    comment: Attribute.Text;
     createdAt: Attribute.DateTime;
     updatedAt: Attribute.DateTime;
     publishedAt: Attribute.DateTime;

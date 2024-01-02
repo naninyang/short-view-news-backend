@@ -16,14 +16,6 @@
       "type": "string",
       "required": true
     },
-    "description": {
-      "type": "text",
-      "required": true
-    },
-    "comment": {
-      "type": "text",
-      "required": true
-    },
     "videoId": {
       "type": "string",
       "required": true
@@ -31,6 +23,12 @@
     "created": {
       "type": "date",
       "required": true
+    },
+    "description": {
+      "type": "text"
+    },
+    "comment": {
+      "type": "text"
     }
   }
 }
