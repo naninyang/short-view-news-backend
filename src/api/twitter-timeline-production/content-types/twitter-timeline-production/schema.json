@@ -84,8 +84,8 @@
     "relationDate5": {
       "type": "datetime"
     },
-    "created": {
-      "type": "datetime"
+    "subject": {
+      "type": "text"
     }
   }
 }

@@ -33,7 +33,7 @@
       "required": true
     },
     "created": {
-      "type": "datetime"
+      "type": "date"
     }
   }
 }

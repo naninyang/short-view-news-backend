@@ -54,8 +54,8 @@
     "originThumbnail4": {
       "type": "string"
     },
-    "created": {
-      "type": "datetime"
+    "subject": {
+      "type": "text"
     }
   }
 }

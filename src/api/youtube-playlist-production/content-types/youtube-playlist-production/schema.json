@@ -103,7 +103,7 @@
       "type": "string"
     },
     "created": {
-      "type": "datetime"
+      "type": "date"
     }
   }
 }

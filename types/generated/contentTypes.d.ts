@@ -784,7 +784,6 @@ export interface ApiInsteadProdctionInsteadProdction
     address: Attribute.Text & Attribute.Required;
     comment: Attribute.Blocks & Attribute.Required;
     subject: Attribute.String;
-    created: Attribute.DateTime;
     createdAt: Attribute.DateTime;
     updatedAt: Attribute.DateTime;
     publishedAt: Attribute.DateTime;
@@ -821,7 +820,7 @@ export interface ApiNaverEntertainmentProductionNaverEntertainmentProduction
     oid: Attribute.Integer & Attribute.Required;
     aid: Attribute.Integer & Attribute.Required;
     thumbnail: Attribute.String & Attribute.Required;
-    created: Attribute.DateTime;
+    created: Attribute.Date;
     createdAt: Attribute.DateTime;
     updatedAt: Attribute.DateTime;
     publishedAt: Attribute.DateTime;
@@ -858,7 +857,7 @@ export interface ApiNaverNewsProductionNaverNewsProduction
     oid: Attribute.Integer & Attribute.Required;
     aid: Attribute.Integer & Attribute.Required;
     thumbnail: Attribute.String & Attribute.Required;
-    created: Attribute.DateTime;
+    created: Attribute.Date;
     createdAt: Attribute.DateTime;
     updatedAt: Attribute.DateTime;
     publishedAt: Attribute.DateTime;
@@ -904,7 +903,7 @@ export interface ApiTwitterOmtProdcutionTwitterOmtProdcution
     originThumbnail2: Attribute.String;
     originThumbnail3: Attribute.String;
     originThumbnail4: Attribute.String;
-    created: Attribute.DateTime;
+    subject: Attribute.Text;
     createdAt: Attribute.DateTime;
     updatedAt: Attribute.DateTime;
     publishedAt: Attribute.DateTime;
@@ -960,7 +959,7 @@ export interface ApiTwitterTimelineProductionTwitterTimelineProduction
     relationNumber5: Attribute.String;
     relationTwit5: Attribute.Blocks;
     relationDate5: Attribute.DateTime;
-    created: Attribute.DateTime;
+    subject: Attribute.Text;
     createdAt: Attribute.DateTime;
     updatedAt: Attribute.DateTime;
     publishedAt: Attribute.DateTime;
@@ -1058,7 +1057,7 @@ export interface ApiYoutubePlaylistProductionYoutubePlaylistProduction
     subject10: Attribute.Text;
     description10: Attribute.Text;
     videoId10: Attribute.String;
-    created: Attribute.DateTime;
+    created: Attribute.Date;
     createdAt: Attribute.DateTime;
     updatedAt: Attribute.DateTime;
     publishedAt: Attribute.DateTime;
