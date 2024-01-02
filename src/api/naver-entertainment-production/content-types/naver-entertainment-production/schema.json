@@ -20,20 +20,18 @@
       "type": "text",
       "required": true
     },
-    "oid": {
-      "type": "integer",
-      "required": true
-    },
-    "aid": {
-      "type": "integer",
-      "required": true
-    },
     "thumbnail": {
       "type": "string",
       "required": true
     },
     "created": {
       "type": "date"
+    },
+    "oid": {
+      "type": "string"
+    },
+    "aid": {
+      "type": "string"
     }
   }
 }

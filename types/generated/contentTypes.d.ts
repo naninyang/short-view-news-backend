@@ -817,10 +817,10 @@ export interface ApiNaverEntertainmentProductionNaverEntertainmentProduction
   attributes: {
     title: Attribute.String & Attribute.Required;
     description: Attribute.Text & Attribute.Required;
-    oid: Attribute.Integer & Attribute.Required;
-    aid: Attribute.Integer & Attribute.Required;
     thumbnail: Attribute.String & Attribute.Required;
     created: Attribute.Date;
+    oid: Attribute.String;
+    aid: Attribute.String;
     createdAt: Attribute.DateTime;
     updatedAt: Attribute.DateTime;
     publishedAt: Attribute.DateTime;
@@ -854,10 +854,10 @@ export interface ApiNaverNewsProductionNaverNewsProduction
   attributes: {
     title: Attribute.String & Attribute.Required;
     description: Attribute.Text & Attribute.Required;
-    oid: Attribute.Integer & Attribute.Required;
-    aid: Attribute.Integer & Attribute.Required;
     thumbnail: Attribute.String & Attribute.Required;
     created: Attribute.Date;
+    oid: Attribute.String;
+    aid: Attribute.String;
     createdAt: Attribute.DateTime;
     updatedAt: Attribute.DateTime;
     publishedAt: Attribute.DateTime;
@@ -1057,7 +1057,27 @@ export interface ApiYoutubePlaylistProductionYoutubePlaylistProduction
     subject10: Attribute.Text;
     description10: Attribute.Text;
     videoId10: Attribute.String;
-    created: Attribute.Date;
+    comment1: Attribute.Text;
+    comment2: Attribute.Text;
+    comment3: Attribute.Text;
+    comment4: Attribute.Text;
+    comment5: Attribute.Text;
+    comment6: Attribute.Text;
+    comment7: Attribute.Text;
+    comment8: Attribute.Text;
+    comment9: Attribute.Text;
+    comment10: Attribute.Text;
+    videoCreated1: Attribute.Date;
+    videoCreated2: Attribute.Date;
+    videoCreated3: Attribute.Date;
+    videoCreated4: Attribute.Date;
+    videoCreated5: Attribute.Date;
+    videoCreated6: Attribute.Date;
+    videoCreated7: Attribute.Date;
+    videoCreated8: Attribute.Date;
+    videoCreated9: Attribute.Date;
+    videoCreated10: Attribute.Date;
+    subject: Attribute.String;
     createdAt: Attribute.DateTime;
     updatedAt: Attribute.DateTime;
     publishedAt: Attribute.DateTime;

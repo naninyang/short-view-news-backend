@@ -102,8 +102,68 @@
     "videoId10": {
       "type": "string"
     },
-    "created": {
+    "comment1": {
+      "type": "text"
+    },
+    "comment2": {
+      "type": "text"
+    },
+    "comment3": {
+      "type": "text"
+    },
+    "comment4": {
+      "type": "text"
+    },
+    "comment5": {
+      "type": "text"
+    },
+    "comment6": {
+      "type": "text"
+    },
+    "comment7": {
+      "type": "text"
+    },
+    "comment8": {
+      "type": "text"
+    },
+    "comment9": {
+      "type": "text"
+    },
+    "comment10": {
+      "type": "text"
+    },
+    "videoCreated1": {
       "type": "date"
+    },
+    "videoCreated2": {
+      "type": "date"
+    },
+    "videoCreated3": {
+      "type": "date"
+    },
+    "videoCreated4": {
+      "type": "date"
+    },
+    "videoCreated5": {
+      "type": "date"
+    },
+    "videoCreated6": {
+      "type": "date"
+    },
+    "videoCreated7": {
+      "type": "date"
+    },
+    "videoCreated8": {
+      "type": "date"
+    },
+    "videoCreated9": {
+      "type": "date"
+    },
+    "videoCreated10": {
+      "type": "date"
+    },
+    "subject": {
+      "type": "string"
     }
   }
 }
