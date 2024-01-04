@@ -1,9 +1,9 @@
-'use strict';
+"use strict";
 
 /**
- * instead-prodction router
+ * instead-production router
  */
 
-const { createCoreRouter } = require('@strapi/strapi').factories;
+const { createCoreRouter } = require("@strapi/strapi").factories;
 
-module.exports = createCoreRouter('api::instead-prodction.instead-prodction');
+module.exports = createCoreRouter("api::instead-production.instead-production");

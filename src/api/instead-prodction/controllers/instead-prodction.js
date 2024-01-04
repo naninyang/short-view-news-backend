@@ -1,9 +1,11 @@
-'use strict';
+"use strict";
 
 /**
- * instead-prodction controller
+ * instead-production controller
  */
 
-const { createCoreController } = require('@strapi/strapi').factories;
+const { createCoreController } = require("@strapi/strapi").factories;
 
-module.exports = createCoreController('api::instead-prodction.instead-prodction');
+module.exports = createCoreController(
+  "api::instead-production.instead-production"
+);

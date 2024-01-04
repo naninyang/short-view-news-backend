@@ -2,8 +2,8 @@
   "kind": "collectionType",
   "collectionName": "instead_prodctions",
   "info": {
-    "singularName": "instead-prodction",
-    "pluralName": "instead-prodctions",
+    "singularName": "instead-production",
+    "pluralName": "instead-productions",
     "displayName": "Instead Prodction",
     "description": ""
   },
