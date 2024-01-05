@@ -774,7 +774,7 @@ export interface ApiInsteadProductionInsteadProduction
   info: {
     singularName: 'instead-production';
     pluralName: 'instead-productions';
-    displayName: 'Instead Prodction';
+    displayName: 'Instead Production';
     description: '';
   };
   options: {
