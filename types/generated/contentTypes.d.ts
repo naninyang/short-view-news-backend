@@ -893,7 +893,7 @@ export interface ApiTwitterOmtProdcutionTwitterOmtProdcution
     quoteNumber: Attribute.String;
     quoteTwit: Attribute.Blocks;
     quoteThumbnail1: Attribute.String;
-    quoteThumbnai2: Attribute.String;
+    quoteThumbnail2: Attribute.String;
     quoteThumbnail3: Attribute.String;
     quoteThumbnail4: Attribute.String;
     originUser: Attribute.String;
